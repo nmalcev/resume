@@ -186,12 +186,12 @@ var posts = new Backside.Model({
 		</table>
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/netmarks3.png"></img>
-		<img class="postimage" src="/pics/netmarks1.jpg"></img>
+		<img class="postimage" src="pics/netmarks3.png"></img>
+		<img class="postimage" src="pics/netmarks1.jpg"></img>
 	</section>
 </div>
 `,
-		tile: '/pics/netmarks3.png',	
+		tile: 'pics/netmarks3.png',	
 	}, 
 	{
 		content: 
@@ -229,14 +229,14 @@ var posts = new Backside.Model({
 		</table>
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/contest1.jpg"></img>
-		<img class="postimage" src="/pics/clan1.jpg"></img>
-		<img class="postimage" src="/pics/clan2.jpg"></img>
-		<img class="postimage" src="/pics/clan4.jpg"></img>
+		<img class="postimage" src="pics/contest1.jpg"></img>
+		<img class="postimage" src="pics/clan1.jpg"></img>
+		<img class="postimage" src="pics/clan2.jpg"></img>
+		<img class="postimage" src="pics/clan4.jpg"></img>
 	</section>
 </div>
 `,
-		tile: '/pics/contest1.jpg',	
+		tile: 'pics/contest1.jpg',	
 	}, {
 		content: 
 `
@@ -272,14 +272,14 @@ var posts = new Backside.Model({
 		</table>
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/ticket-admin1.png"></img>
-		<img class="postimage" src="/pics/ticket-admin2.png"></img>
-		<img class="postimage" src="/pics/ticket-admin3.png"></img>
-		<img class="postimage" src="/pics/ticket-admin4.png"></img>
+		<img class="postimage" src="pics/ticket-admin1.png"></img>
+		<img class="postimage" src="pics/ticket-admin2.png"></img>
+		<img class="postimage" src="pics/ticket-admin3.png"></img>
+		<img class="postimage" src="pics/ticket-admin4.png"></img>
 	</section>
 </div>
 `,
-		tile: '/pics/ticket-admin1.png',
+		tile: 'pics/ticket-admin1.png',
 	}, 
 	{
 		content: 
@@ -313,14 +313,14 @@ var posts = new Backside.Model({
 		</table>
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/fs_interface1.png"></img>
-		<img class="postimage" src="/pics/fs_interface2.jpg"></img>
-		<img class="postimage" src="/pics/fs_interface3.jpg"></img>
-		<img class="postimage" src="/pics/fs_interface4.png"></img>
+		<img class="postimage" src="pics/fs_interface1.png"></img>
+		<img class="postimage" src="pics/fs_interface2.jpg"></img>
+		<img class="postimage" src="pics/fs_interface3.jpg"></img>
+		<img class="postimage" src="pics/fs_interface4.png"></img>
 	</section>
 </div>
 `,
-		tile: '/pics/fs_interface1.png',
+		tile: 'pics/fs_interface1.png',
 	}, 
 	{
 		content: 
@@ -355,16 +355,16 @@ var posts = new Backside.Model({
 		</table>
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/finpopup2.png"></img>
-		<img class="postimage" src="/pics/finpopup3.png"></img>
-		<img class="postimage" src="/pics/autopay1.png"></img>
-		<img class="postimage" src="/pics/fotocheck.png"></img>
-		<img class="postimage" src="/pics/finroom.png"></img>
-		<img class="postimage" src="/pics/finroom2.png"></img>
+		<img class="postimage" src="pics/finpopup2.png"></img>
+		<img class="postimage" src="pics/finpopup3.png"></img>
+		<img class="postimage" src="pics/autopay1.png"></img>
+		<img class="postimage" src="pics/fotocheck.png"></img>
+		<img class="postimage" src="pics/finroom.png"></img>
+		<img class="postimage" src="pics/finroom2.png"></img>
 	</section>
 </div>
 `,
-		tile: '/pics/finpopup2.png',
+		tile: 'pics/finpopup2.png',
 	},
 {
 	content:
@@ -398,15 +398,14 @@ var posts = new Backside.Model({
 				</tr>
 			</tbody>
 		</table>
-		
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/imoderator1.jpg"></img>
-		<img class="postimage" src="/pics/imoderator2.jpg"></img>
+		<img class="postimage" src="pics/imoderator1.jpg"></img>
+		<img class="postimage" src="pics/imoderator2.jpg"></img>
 	</section>
 </div>
 `,
-	tile: '/pics/imoderator1.jpg',
+	tile: 'pics/imoderator1.jpg',
 }, {
 	content:
 `
@@ -438,15 +437,14 @@ var posts = new Backside.Model({
 				</tr>
 			</tbody>
 		</table>
-		
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/cleaning.jpg"></img>
-		<img class="postimage" src="/pics/cleaning1.jpg"></img>
+		<img class="postimage" src="pics/cleaning.jpg"></img>
+		<img class="postimage" src="pics/cleaning1.jpg"></img>
 	</section>
 </div>
 `,
-	tile: '/pics/cleaning.jpg',
+	tile: 'pics/cleaning.jpg',
 }, {
 	content:
 `
@@ -481,11 +479,11 @@ var posts = new Backside.Model({
 		
 	</section>
 	<section class="postblock __typea">
-		<img class="postimage" src="/pics/promalp1.jpg"></img>
+		<img class="postimage" src="pics/promalp1.jpg"></img>
 	</section>
 </div>
 `,
-	tile: '/pics/promalp1.jpg',
+	tile: 'pics/promalp1.jpg',
 }
 
 ],
