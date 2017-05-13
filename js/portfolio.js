@@ -253,7 +253,7 @@ var posts = new Backside.Model({
 	<section class="postblock">
 		<h3 class="postheader1 offset1">Quest games and voting contests</h3>
 		<section class="offset2">
-			<p class="post-article">When I worked at fotostrana.ru (monetization department) I completed frontend part of several entertainment projects that were based on game mechanics such as quests and votings for users' images</p>
+			<p class="post-article">When I worked at fotostrana.ru (monetization department) I completed frontend part of several entertainment projects that were based on game mechanics such as quests and votings for users' images.</p>
 		</section>
 		<table class="postgrid">
 			<tbody>
