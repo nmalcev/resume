@@ -155,387 +155,421 @@
 var posts = new Backside.Model({
 	items: [
 	{
+		content:
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Dr. Web Linux Console</h3>\
+		<section class="offset2">\
+			<p class="post-article">Dr. Web Linux Web Console is web admin panel for server antivirus products. Part of <a href="https://products.drweb.com/linux" target="_blank">Dr.Web Anti-virus for Linux</a></p>\
+			<!--<p class="post-article">Key features:</p>\
+			<ul class="postlist">\
+				<li>Data visualization at charts, diagrams and vector scalable maps;</li>\
+				<li>Wysiwyg editor for documents;</li>\
+				<li>Real time application</li>\
+			</ul>-->\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="https://download.geo.drweb.com/pub/drweb/unix/server/11.0/documentation/html/en/index.html?dw_9_web_interface_main.htm" target="_blank">Product manual</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2017 year</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>Backbone.js</li>\
+							<li>Require.js</li>\
+							<li>Stylus</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Server Sent Events (SSE)</li>\
+							<li>Responsive Layout</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/webconsole6.png"></img>\
+		<img class="postimage" src="pics/webconsole3.png"></img>\
+		<img class="postimage" src="pics/webconsole4.png"></img>\
+		<img class="postimage" src="pics/webconsole8.png"></img>\
+		<img class="postimage" src="pics/webconsole10.png"></img>\
+		<img class="postimage" src="pics/webconsole12.png"></img>\
+		<img class="postimage" src="pics/webconsole13.png"></img>\
+	</section>\
+</div>',		
+		tile: 'pics/webconsole3.png',	
+	}, 
+	{
 		content: 
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Y-Tracker</h3>
-		<section class="offset2">
-			<p class="post-article">Y-Tracker is cyber intelligence platform for corporate customers of Dr. Web, that aggregate sensitive information about cyber crime. <br/>I have completed all fronted tasks.</p>
-			<p class="post-article">Key features:</p>
-			<ul class="postlist">
-				<li>Data visualization at charts, diagrams and vector scalable maps;</li>
-				<li>Wysiwyg editor for documents;</li>
-				<li>Supporting of different types of user profiles.</li>
-			</ul>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<!--<tr>
-					<td>Where:</td>
-					<td><a href="_" target="_blank">_</a></td>
-				</tr>-->
-				<tr>
-					<td>When:</td>
-					<td>2017 year</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>SVG, D3.js</li>
-							<li>Backbone.js</li>
-							<li>Require.js</li>
-							<li>Stylus</li>
-							<li>HTML5/CSS3</li>
-							<li>Responsive Layout</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/ytracker1.jpg"></img>
-		<img class="postimage" src="pics/ytracker2.jpg"></img>
-		<img class="postimage" src="pics/ytracker3.jpg"></img>
-		<img class="postimage" src="pics/ytracker4.jpg"></img>
-		<img class="postimage" src="pics/ytracker5.jpg"></img>
-	</section>
-</div>
-`,		
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Y-Tracker</h3>\
+		<section class="offset2">\
+			<p class="post-article">Y-Tracker is cyber intelligence platform for corporate customers of Dr. Web, that aggregate sensitive information about cyber crime. <br/>I have completed all fronted tasks.</p>\
+			<p class="post-article">Key features:</p>\
+			<ul class="postlist">\
+				<li>Data visualization at charts, diagrams and vector scalable maps;</li>\
+				<li>Wysiwyg editor for documents;</li>\
+				<li>Supporting of different types of user profiles.</li>\
+			</ul>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<!--<tr>\
+					<td>Where:</td>\
+					<td><a href="_" target="_blank">_</a></td>\
+				</tr>-->\
+				<tr>\
+					<td>When:</td>\
+					<td>2017 year</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>SVG, D3.js</li>\
+							<li>Backbone.js</li>\
+							<li>Require.js</li>\
+							<li>Stylus</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Responsive Layout</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/ytracker1.jpg"></img>\
+		<img class="postimage" src="pics/ytracker2.jpg"></img>\
+		<img class="postimage" src="pics/ytracker3.jpg"></img>\
+		<img class="postimage" src="pics/ytracker4.jpg"></img>\
+		<img class="postimage" src="pics/ytracker5.jpg"></img>\
+	</section>\
+</div>',		
 		tile: 'pics/ytracker1.jpg',	
 	}, 
 	{
 		content: 
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Netmarks</h3>
-		<section class="offset2">
-			<p class="post-article">Netmarks is a tree view bookmark manager for browser Chrome. It is my personal project.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="https://chrome.google.com/webstore/detail/netmarks-bookmarks-menu/boepmphdpbdnficfifejnkejlljcefjb" target="_blank">Chrome Web store</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2011-2017 years</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>HTML5/CSS3</li>
-							<li>Chrome Api</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/netmarks3.png"></img>
-		<img class="postimage" src="pics/netmarks1.jpg"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Netmarks</h3>\
+		<section class="offset2">\
+			<p class="post-article">Netmarks is a tree view bookmark manager for browser Chrome. It is my personal project.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="https://chrome.google.com/webstore/detail/netmarks-bookmarks-menu/boepmphdpbdnficfifejnkejlljcefjb" target="_blank">Chrome Web store</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2011-2017 years</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>HTML5/CSS3</li>\
+							<li>Chrome Api</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/netmarks3.png"></img>\
+		<img class="postimage" src="pics/netmarks1.jpg"></img>\
+	</section>\
+</div>',
 		tile: 'pics/netmarks3.png',	
 	}, 
 	{
 		content: 
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Quest games and voting contests</h3>
-		<section class="offset2">
-			<p class="post-article">When I worked at fotostrana.ru (monetization department) I completed frontend part of several entertainment projects that were based on game mechanics such as quests and votings for users' images.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2014 year</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>Backbone.js</li>
-							<li>Require.js</li>
-							<li>SASS</li>
-							<li>HTML5/CSS3</li>
-							<li>Responsive Layout</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/contest1.jpg"></img>
-		<img class="postimage" src="pics/clan1.jpg"></img>
-		<img class="postimage" src="pics/clan2.jpg"></img>
-		<img class="postimage" src="pics/clan4.jpg"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Quest games and voting contests</h3>\
+		<section class="offset2">\
+			<p class="post-article">When I worked at fotostrana.ru (monetization department) I completed frontend part of several entertainment projects that were based on game mechanics such as quests and votings for user\'s images.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2014 year</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>Backbone.js</li>\
+							<li>Require.js</li>\
+							<li>SASS</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Responsive Layout</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/contest1.jpg"></img>\
+		<img class="postimage" src="pics/clan1.jpg"></img>\
+		<img class="postimage" src="pics/clan2.jpg"></img>\
+		<img class="postimage" src="pics/clan4.jpg"></img>\
+	</section>\
+</div>',
 		tile: 'pics/contest1.jpg',	
 	}, {
 		content: 
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Ticket admin panel and admin panel of massive failures</h3>
-		<section class="offset2">
-			<p class="post-article">This is an internal web service for support department that is built as single page application (SPA).</p> 
-			<p class="post-article">Admin panel is used to communicate with users of social network. It provides a simple access to the information about users, users' requests, frequently asked questions. Users' similar requests can be merged into single "massive failure" with creation of task for Redmine testers.</p>
-			<p class="post-article">I have completed all fronted tasks.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2013-2014 years</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>HTML5/CSS3</li>
-							<li>Responsive Layout</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/ticket-admin1.png"></img>
-		<img class="postimage" src="pics/ticket-admin2.png"></img>
-		<img class="postimage" src="pics/ticket-admin3.png"></img>
-		<img class="postimage" src="pics/ticket-admin4.png"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Ticket admin panel and admin panel of massive failures</h3>\
+		<section class="offset2">\
+			<p class="post-article">This is an internal web service for support department that is built as single page application (SPA).</p> \
+			<p class="post-article">Admin panel is used to communicate with users of social network. It provides a simple access to the information about users, user\'s requests, frequently asked questions. User\'s similar requests can be merged into single "massive failure" with creation of task for Redmine testers.</p>\
+			<p class="post-article">I have completed all fronted tasks.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2013-2014 years</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Responsive Layout</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/ticket-admin1.png"></img>\
+		<img class="postimage" src="pics/ticket-admin2.png"></img>\
+		<img class="postimage" src="pics/ticket-admin3.png"></img>\
+		<img class="postimage" src="pics/ticket-admin4.png"></img>\
+	</section>\
+</div>',
 		tile: 'pics/ticket-admin1.png',
 	}, 
 	{
 		content: 
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Differents elements of UI fotostrana.ru</h3>
-		<section class="offset2">
-			<p class="post-article">Moderation popups, block pages and e.t.c.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2013-2014 years</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>HTML5/CSS3</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/fs_interface1.png"></img>
-		<img class="postimage" src="pics/fs_interface2.jpg"></img>
-		<img class="postimage" src="pics/fs_interface3.jpg"></img>
-		<img class="postimage" src="pics/fs_interface4.png"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Differents elements of UI fotostrana.ru</h3>\
+		<section class="offset2">\
+			<p class="post-article">Moderation popups, block pages and e.t.c.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2013-2014 years</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>HTML5/CSS3</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/fs_interface1.png"></img>\
+		<img class="postimage" src="pics/fs_interface2.jpg"></img>\
+		<img class="postimage" src="pics/fs_interface3.jpg"></img>\
+		<img class="postimage" src="pics/fs_interface4.png"></img>\
+	</section>\
+</div>',
 		tile: 'pics/fs_interface1.png',
 	}, 
 	{
 		content: 
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Finance page of user profile at fotostrana.ru</h3>
-		<section class="offset2">
-			<p class="post-article">Page with a detailed information about users' payments. Different tools for buying a currency of social network.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2013-2014 years</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>HTML5/CSS3</li>
-							<li>Responsive Layout</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/finpopup2.png"></img>
-		<img class="postimage" src="pics/finpopup3.png"></img>
-		<img class="postimage" src="pics/autopay1.png"></img>
-		<img class="postimage" src="pics/fotocheck.png"></img>
-		<img class="postimage" src="pics/finroom.png"></img>
-		<img class="postimage" src="pics/finroom2.png"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Finance page of user profile at fotostrana.ru</h3>\
+		<section class="offset2">\
+			<p class="post-article">Page with a detailed information about user\'s payments. Different tools for buying a currency of social network.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2013-2014 years</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Responsive Layout</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/finpopup2.png"></img>\
+		<img class="postimage" src="pics/finpopup3.png"></img>\
+		<img class="postimage" src="pics/autopay1.png"></img>\
+		<img class="postimage" src="pics/fotocheck.png"></img>\
+		<img class="postimage" src="pics/finroom.png"></img>\
+		<img class="postimage" src="pics/finroom2.png"></img>\
+	</section>\
+</div>',
 		tile: 'pics/finpopup2.png',
 	},
 {
 	content:
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Web App for moderation images at fotostrana.ru</h3>
-		<section class="offset2">
-			<p class="post-article">A special web application has been created at 2013 with a goal of automatization process of images moderation.</p>
-			<p class="post-article">All public uploaded images can be safely checked by another users. Finding correct results by moderators is rewarded by gifts and scores.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2013 year</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>HTML5/CSS3</li>
-							<li>Responsive Layout</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/imoderator1.jpg"></img>
-		<img class="postimage" src="pics/imoderator2.jpg"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Web App for moderation images at fotostrana.ru</h3>\
+		<section class="offset2">\
+			<p class="post-article">A special web application has been created at 2013 with a goal of automatization process of images moderation.</p>\
+			<p class="post-article">All public uploaded images can be safely checked by another users. Finding correct results by moderators is rewarded by gifts and scores.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2013 year</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Responsive Layout</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/imoderator1.jpg"></img>\
+		<img class="postimage" src="pics/imoderator2.jpg"></img>\
+	</section>\
+</div>',
 	tile: 'pics/imoderator1.jpg',
 }, {
 	content:
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Web sait blik-cleaning.ru</h3>
-		<section class="offset2">
-			<p class="post-article">A Web site for a cleaning company is built on WordPress CMS.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.blik-cleaning.ru" target="_blank">www.blik-cleaning.ru</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2013 year</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>HTML5/CSS3</li>
-							<li>WordPress</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/cleaning.jpg"></img>
-		<img class="postimage" src="pics/cleaning1.jpg"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Web sait blik-cleaning.ru</h3>\
+		<section class="offset2">\
+			<p class="post-article">A Web site for a cleaning company is built on WordPress CMS.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.blik-cleaning.ru" target="_blank">www.blik-cleaning.ru</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2013 year</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>HTML5/CSS3</li>\
+							<li>WordPress</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/cleaning.jpg"></img>\
+		<img class="postimage" src="pics/cleaning1.jpg"></img>\
+	</section>\
+</div>',
 	tile: 'pics/cleaning.jpg',
 }, {
 	content:
-`
-<div class="postcontent">
-	<section class="postblock">
-		<h3 class="postheader1 offset1">Web sait promalp.name</h3>
-		<section class="offset2">
-			<p class="post-article">Web site for a building company.</p>
-		</section>
-		<table class="postgrid">
-			<tbody>
-				<tr>
-					<td>Where:</td>
-					<td><a href="wwww.promalp.name" target="_blank">www.promalp.name</a></td>
-				</tr>
-				<tr>
-					<td>When:</td>
-					<td>2013 year</td>
-				</tr>
-				<tr>
-					<td>With:</td>
-					<td>
-						<ul class="floatenum">
-							<li>jQuery</li>
-							<li>HTML5/CSS3</li>
-							<li>Node.js (Express)</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		
-	</section>
-	<section class="postblock __typea">
-		<img class="postimage" src="pics/promalp1.jpg"></img>
-	</section>
-</div>
-`,
+'<div class="postcontent">\
+	<section class="postblock">\
+		<h3 class="postheader1 offset1">Web sait promalp.name</h3>\
+		<section class="offset2">\
+			<p class="post-article">Web site for a building company.</p>\
+		</section>\
+		<table class="postgrid">\
+			<tbody>\
+				<tr>\
+					<td>Where:</td>\
+					<td><a href="wwww.promalp.name" target="_blank">www.promalp.name</a></td>\
+				</tr>\
+				<tr>\
+					<td>When:</td>\
+					<td>2013 year</td>\
+				</tr>\
+				<tr>\
+					<td>With:</td>\
+					<td>\
+						<ul class="floatenum">\
+							<li>jQuery</li>\
+							<li>HTML5/CSS3</li>\
+							<li>Node.js (Express)</li>\
+						</ul>\
+					</td>\
+				</tr>\
+			</tbody>\
+		</table>\
+	</section>\
+	<section class="postblock __typea">\
+		<img class="postimage" src="pics/promalp1.jpg"></img>\
+	</section>\
+</div>',
 	tile: 'pics/promalp1.jpg',
 }
 
