@@ -161,12 +161,9 @@ var posts = new Backside.Model({
 		<h3 class="postheader1 offset1">Dr. Web Linux Console</h3>\
 		<section class="offset2">\
 			<p class="post-article">Dr. Web Linux Web Console is web admin panel for server antivirus products. Part of <a href="https://products.drweb.com/linux" target="_blank">Dr.Web Anti-virus for Linux</a></p>\
-			<!--<p class="post-article">Key features:</p>\
-			<ul class="postlist">\
-				<li>Data visualization at charts, diagrams and vector scalable maps;</li>\
-				<li>Wysiwyg editor for documents;</li>\
-				<li>Real time application</li>\
-			</ul>-->\
+			<p class="post-article">This SPA distributed with proprietary web server written on C++ with several limitation. \
+The web interface supports a multi-user acces in real time access.</p>\
+<p class="post-article">By technical requirements I have saved compatibility with IE 10 and some old versions of FireFox from commersial Linux Distributives. I couldn\'t use websocket connection (because web server did\'t support it). So i have used long pollings with Server Sent Events for communication and I have managed queue of requests to load sensetive user data.</p>\
 		</section>\
 		<table class="postgrid">\
 			<tbody>\
@@ -214,6 +211,8 @@ var posts = new Backside.Model({
 		<h3 class="postheader1 offset1">Y-Tracker</h3>\
 		<section class="offset2">\
 			<p class="post-article">Y-Tracker is cyber intelligence platform for corporate customers of Dr. Web, that aggregate sensitive information about cyber crime. <br/>I have completed all fronted tasks.</p>\
+			<p class="post-article">Technically it is a Single Page Application which is built on Backbone.js with a big amount of charts and tables. The most difficult challenge was to represent a huge massive of data in a limited area on a screen. \
+I have solved these issues by developing a library of the custom user controls. Backbone.js is a simple enought to organize well optimized modular architecture and to involve juniors in work under a project.</p>\
 			<p class="post-article">Key features:</p>\
 			<ul class="postlist">\
 				<li>Data visualization at charts, diagrams and vector scalable maps;</li>\
