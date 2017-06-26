@@ -162,8 +162,8 @@ var posts = new Backside.Model({
 		<section class="offset2">\
 			<p class="post-article">Dr. Web Linux Web Console is web admin panel for server antivirus products. Part of <a href="https://products.drweb.com/linux" target="_blank">Dr.Web Anti-virus for Linux</a></p>\
 			<p class="post-article">This SPA distributed with proprietary web server written on C++ with several limitation. \
-The web interface supports a multi-user acces in real time access.</p>\
-<p class="post-article">By technical requirements I have saved compatibility with IE 10 and some old versions of FireFox from commersial Linux Distributives. I couldn\'t use websocket connection (because web server did\'t support it). So i have used long pollings with Server Sent Events for communication and I have managed queue of requests to load sensetive user data.</p>\
+The web interface supports a multi-user access in real time access.</p>\
+<p class="post-article">By technical requirements I have saved compatibility with IE 10 and some old versions of FireFox from commercial Linux Distributives. I couldn\'t use websocket connection (because web server didn\'t support it). So i have used long pollings with Server Sent Events for communication and I have managed queue of requests to load sensitiveuser data.</p>\
 		</section>\
 		<table class="postgrid">\
 			<tbody>\
