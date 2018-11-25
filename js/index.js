@@ -8,8 +8,6 @@ bindEvents(_controls, {
 		_controls.menuActiveItem.innerHTML = '<i class="dropdown-icn __flag-fr"></i>Fr';
 	},
 });
-// console.log('Controls');
-// console.dir(_controls);
 
 CtxMenu2({
 	label: _controls.menuLabel,
