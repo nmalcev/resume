@@ -154,6 +154,47 @@
 
 var posts = new Backside.Model({
 	items: [
+{
+	content:
+`<div class="postcontent">
+	<section class="postblock">
+		<h3 class="postheader1 offset1">A Solid social application</h3>
+		<section class="offset2">
+			<p class="post-article">A distributed social network application on top of Solid conventions and tools. In the scope of my final education project I have developed a single page application on Angular 7.</p>
+		</section>
+		<table class="postgrid">
+			<tbody>
+				<tr>
+					<td>Location:</td>
+					<td><a href="https://github.com/nmalcev/reviewapp" target="_blank">Github</a></td>
+				</tr>
+				<tr>
+					<td>Time period:</td>
+					<td>Winter 2018-2019</td>
+				</tr>
+				<tr>
+					<td>Technologies:</td>
+					<td>
+						<ul class="floatenum">
+							<li>Angular 7</li>
+							<li>Solid</li>
+							<li>Bootstrap</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section class="postblock __typea">
+		<img class="postimage" src="pics/reviewapp1.png"></img>
+		<img class="postimage" src="pics/reviewapp2.png"></img>
+		<img class="postimage" src="pics/reviewapp3.png"></img>
+		<img class="postimage" src="pics/reviewapp4.png"></img>
+	</section>
+</div>`,
+	tile: 'pics/reviewapp4.png'
+},
+
 	{
 		content:
 '<div class="postcontent">\
@@ -168,15 +209,15 @@ The web interface supports a multi-user access in real time access.</p>\
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
+					<td>Location:</td>\
 					<td><a href="https://download.geo.drweb.com/pub/drweb/unix/server/11.0/documentation/html/en/index.html?dw_9_web_interface_main.htm" target="_blank">Product manual</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2017 year</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -222,16 +263,12 @@ I have solved these issues by developing a library of the custom user controls. 
 		</section>\
 		<table class="postgrid">\
 			<tbody>\
-				<!--<tr>\
-					<td>Where:</td>\
-					<td><a href="_" target="_blank">_</a></td>\
-				</tr>-->\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2017 year</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -268,15 +305,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
+					<td>Location:</td>\
 					<td><a href="https://chrome.google.com/webstore/detail/netmarks-bookmarks-menu/boepmphdpbdnficfifejnkejlljcefjb" target="_blank">Chrome Web store</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2011-2017 years</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>HTML5/CSS3</li>\
@@ -305,15 +342,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2014 year</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -349,15 +386,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2013-2014 years</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -389,15 +426,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2013-2014 years</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -428,15 +465,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2013-2014 years</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -471,15 +508,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.fotostrana.ru" target="_blank">www.fotostrana.ru</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2013 year</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -508,15 +545,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.blik-cleaning.ru" target="_blank">www.blik-cleaning.ru</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.blik-cleaning.ru" target="_blank">www.blik-cleaning.ru</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2013 year</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
@@ -545,15 +582,15 @@ I have solved these issues by developing a library of the custom user controls. 
 		<table class="postgrid">\
 			<tbody>\
 				<tr>\
-					<td>Where:</td>\
-					<td><a href="wwww.promalp.name" target="_blank">www.promalp.name</a></td>\
+					<td>Location:</td>\
+					<td><a href="http://www.promalp.name" target="_blank">www.promalp.name</a></td>\
 				</tr>\
 				<tr>\
-					<td>When:</td>\
+					<td>Time period:</td>\
 					<td>2013 year</td>\
 				</tr>\
 				<tr>\
-					<td>With:</td>\
+					<td>Technologies:</td>\
 					<td>\
 						<ul class="floatenum">\
 							<li>jQuery</li>\
