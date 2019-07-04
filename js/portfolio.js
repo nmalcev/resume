@@ -216,20 +216,6 @@ The web interface supports a multi-user access in real time access.</p>\
 					<td>Time period:</td>\
 					<td>2017 year</td>\
 				</tr>\
-				<tr>\
-					<td>Technologies:</td>\
-					<td>\
-						<ul class="floatenum">\
-							<li>jQuery</li>\
-							<li>Backbone.js</li>\
-							<li>Require.js</li>\
-							<li>Stylus</li>\
-							<li>HTML5/CSS3</li>\
-							<li>Server Sent Events (SSE)</li>\
-							<li>Responsive Layout</li>\
-						</ul>\
-					</td>\
-				</tr>\
 			</tbody>\
 		</table>\
 	</section>\
@@ -252,8 +238,8 @@ The web interface supports a multi-user access in real time access.</p>\
 		<h3 class="postheader1 offset1">Y-Tracker</h3>\
 		<section class="offset2">\
 			<p class="post-article">Y-Tracker is a cyber intelligence platform for corporate customers of Dr. Web, that aggregate sensitive information about cyber crime. <br/>I have completed all fronted tasks.</p>\
-			<p class="post-article">Technically it is a Single Page Application which is built on Backbone.js with a big amount of charts and tables. The most difficult challenge was to represent huge massive of data in a limited area on a screen. \
-I have solved these issues by developing a library of the custom user controls. Backbone.js is a simple enought to organize well optimized modular architecture and to involve juniors in work under a project.</p>\
+			<p class="post-article">Technically it is a Single Page Application which is built with a big amount of charts and tables. The most difficult challenge was to represent huge massive of data in a limited area on a screen. \
+I have solved these issues by developing a library of the custom user controls. </p>\
 			<p class="post-article">Key features:</p>\
 			<ul class="postlist">\
 				<li>Data visualization at charts, diagrams and vector scalable maps;</li>\
@@ -266,20 +252,6 @@ I have solved these issues by developing a library of the custom user controls. 
 				<tr>\
 					<td>Time period:</td>\
 					<td>2017 year</td>\
-				</tr>\
-				<tr>\
-					<td>Technologies:</td>\
-					<td>\
-						<ul class="floatenum">\
-							<li>jQuery</li>\
-							<li>SVG, D3.js</li>\
-							<li>Backbone.js</li>\
-							<li>Require.js</li>\
-							<li>Stylus</li>\
-							<li>HTML5/CSS3</li>\
-							<li>Responsive Layout</li>\
-						</ul>\
-					</td>\
 				</tr>\
 			</tbody>\
 		</table>\
