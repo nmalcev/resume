@@ -161,6 +161,8 @@ var posts = new Backside.Model({
     <h3 class="postheader1 offset1">Seat Map Plugin</h3>
     <section class="offset2">
       <p class="post-article">The SeatMap Plugin is a js widget that is used to select and book airplane seats. This plugin integrates into the web applications of Amadeus clients. The goal of the mission was to migrate the application to the new backend API.</p>
+      <p class="post-article">I suggested an optimal solution for implementing the new API in an existing application. This solution reduced the development time and reduced the number of UI regression.</p>
+      <p class="post-article">One of the main contributions (as well as the most difficult part) to this work was the following standards and requirements of Amadeus.</p>
     </section>
     <table class="postgrid">
       <tbody>
@@ -236,10 +238,9 @@ var posts = new Backside.Model({
   <section class="postblock">\
     <h3 class="postheader1 offset1">Dr. Web Linux Console</h3>\
     <section class="offset2">\
-      <p class="post-article">Dr. Web Linux Web Console is web admin panel for server antivirus products. Part of <a href="https://products.drweb.com/linux" target="_blank">Dr.Web Anti-virus for Linux</a></p>\
-      <p class="post-article">This SPA distributed with proprietary web server written on C++ with several limitation. \
-The web interface supports a multi-user access in real time access.</p>\
-<p class="post-article">By technical requirements I have saved compatibility with IE 10 and some old versions of FireFox from commercial Linux Distributives. I couldn\'t use websocket connection (because web server didn\'t support it). I have used long pollings with Server Sent Events for communication and I have managed queue of requests to load sensitive user data.</p>\
+      <p class="post-article">Dr. Web Linux Web Console is a web admin panel for antivirus server products. This single-page application comes with the <a href="https://products.drweb.com/linux" target="_blank">Dr.Web Anti-virus for Linux</a></p>\
+      <p class="post-article">Web application supports real-time multi-user access.</p>\
+<p class="post-article">For technical requirements, I had to maintain compatibility with IE 10 and some older versions of Firefox from commercial Linux distributions. I could not use a WebSocket connection (because the webserver did not support it). I used long polling with Server-Sent Events for communication and I need to maintain a request queue to load sensitive user data.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
@@ -333,7 +334,7 @@ The web interface supports a multi-user access in real time access.</p>\
   <section class="postblock">\
     <h3 class="postheader1 offset1">Netmarks</h3>\
     <section class="offset2">\
-      <p class="post-article">Netmarks is a tree view bookmark manager for browser Chrome. It is my personal project.</p>\
+      <p class="post-article">Netmarks is a tree-style bookmark manager for the Chrome browser. This is my personal project.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
@@ -369,6 +370,7 @@ The web interface supports a multi-user access in real time access.</p>\
 `<div class="postcontent">
   <section class="postblock">
     <h3 class="postheader1 offset1">EMIAS</h3>
+    <p class="post-article">I developed several single-page applications on Angular.js and Angular for medical institutions to allow medical staff to manage patient appointments. All of them belong to the medical records management system for the Moscow medical information system (EMIAS).</p>
     <table class="postgrid">
       <tbody>
         <tr>
@@ -395,7 +397,7 @@ The web interface supports a multi-user access in real time access.</p>\
   <section class="postblock">\
     <h3 class="postheader1 offset1">Quest games and voting contests</h3>\
     <section class="offset2">\
-      <p class="post-article">When I worked at fotostrana.ru (monetization department) I completed frontend part of several entertainment projects that were based on game mechanics such as quests and votings for user\'s images.</p>\
+      <p class="post-article">At fotostrana.ru I worked as a front-developer for several entertainment projects based on game mechanics such as quests and user votings.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
@@ -437,8 +439,8 @@ The web interface supports a multi-user access in real time access.</p>\
   <section class="postblock">\
     <h3 class="postheader1 offset1">Ticket admin panel and admin panel of massive failures</h3>\
     <section class="offset2">\
-      <p class="post-article">This is an internal web service for support department that is built as single page application (SPA).</p> \
-      <p class="post-article">Admin panel is used to communicate with users of social network. It provides a simple access to the information about users, user\'s requests, frequently asked questions. User\'s similar requests can be merged into single "massive failure" with creation of task for Redmine testers.</p>\
+      <p class="post-article">This is an internal web service for the support department</p> \
+      <p class="post-article">Admin panel is used to communicate with users of the social network. It provides a simple access to the information about users, user\'s requests, frequently asked questions. The same type of user requests can be combined into one "massive failure" with the creation of tasks in Redmine, which can be assigned to testers or developers.</p>\
       <p class="post-article">I have completed all fronted tasks.</p>\
     </section>\
     <table class="postgrid">\
@@ -479,7 +481,7 @@ The web interface supports a multi-user access in real time access.</p>\
   <section class="postblock">\
     <h3 class="postheader1 offset1">Differents elements of UI fotostrana.ru</h3>\
     <section class="offset2">\
-      <p class="post-article">Moderation popups, block pages and e.t.c.</p>\
+      <p class="post-article">Moderation popups, blocking pages and e.t.c.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
@@ -518,7 +520,7 @@ The web interface supports a multi-user access in real time access.</p>\
   <section class="postblock">\
     <h3 class="postheader1 offset1">Finance page of user profile on fotostrana.ru</h3>\
     <section class="offset2">\
-      <p class="post-article">Page with a detailed information about user\'s payments. Different tools for buying a currency of social network.</p>\
+      <p class="post-article">A section in the user\'s profile with detailed information about the user\'s payments. The user interface provides various approaches to buying currency in a social network.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
@@ -558,10 +560,10 @@ The web interface supports a multi-user access in real time access.</p>\
   content:
 '<div class="postcontent">\
   <section class="postblock">\
-    <h3 class="postheader1 offset1">Web App for moderation images on fotostrana.ru</h3>\
+    <h3 class="postheader1 offset1">Web application for image moderation at fotostrana.ru</h3>\
     <section class="offset2">\
-      <p class="post-article">A special web application has been created at 2013 with a goal of automatization process of images moderation.</p>\
-      <p class="post-article">All public uploaded images can be safely checked by users. Finding correct results by moderators is rewarded by gifts and scores.</p>\
+      <p class="post-article">In 2013, I developed a special web application to automate the image moderation process.</p>\
+      <p class="post-article">All uploaded public images can be safely verified by volunteers. Volunteers are rewarded by gifts and scores for the correct results.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
@@ -598,7 +600,7 @@ The web interface supports a multi-user access in real time access.</p>\
   <section class="postblock">\
     <h3 class="postheader1 offset1">www.blik-cleaning.ru</h3>\
     <section class="offset2">\
-      <p class="post-article">A Web site for a cleaning company is built on WordPress CMS.</p>\
+      <p class="post-article">The website for the cleaning company was built on a WordPress CMS.</p>\
     </section>\
     <table class="postgrid">\
       <tbody>\
